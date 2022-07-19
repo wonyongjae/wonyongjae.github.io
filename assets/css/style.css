@@ -36,12 +36,12 @@ video {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
-  background-size: cover;
+  /* background: #010e1b; */
+  /* background-size: cover; */
   left: 0;
   right: 0;
   top: 0;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 @media (min-width: 1024px) {
