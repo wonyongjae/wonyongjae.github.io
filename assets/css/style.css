@@ -35,7 +35,7 @@ video {
 
 body::before {
   content: "";
-  /* position: fixed; */
+  position: fixed;
   background: #010e1b;
   background-size: cover;
   left: 0;
@@ -46,7 +46,7 @@ body::before {
 
 @media (min-width: 1024px) {
   body::before {
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
   }
 }
 
